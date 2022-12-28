@@ -1,0 +1,17 @@
+2022-12-28-12:11:07
+
+data_dir: ./data
+dataset: trafic
+lr: 0.01
+lr_decay_step: 5,10
+resume: None
+resume_mask: None
+gpu: 0
+job_dir: ./result/tmp/
+epochs: 15
+train_batch_size: 32
+eval_batch_size: 100
+start_cov: 0
+compress_rate: None
+arch: vgg_16_bn
+

@@ -1,0 +1,17 @@
+2022-12-26-22:32:25
+
+data_dir: ./data
+dataset: trafic
+lr: 0.01
+lr_decay_step: 5,10
+resume: /home/wxz/HRank-master/pretrained_models/resnet_56.pt
+resume_mask: None
+gpu: 1
+job_dir: ./result/resnet_56/cifar10
+epochs: 15
+train_batch_size: 32
+eval_batch_size: 100
+start_cov: 0
+compress_rate: [0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+arch: resnet_56
+

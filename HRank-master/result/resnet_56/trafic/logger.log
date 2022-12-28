@@ -1,0 +1,1462 @@
+12/27 04:54:20 PM | 
+12/27 04:54:20 PM | Parameters:
+12/27 04:54:20 PM | ARCH=resnet_56
+12/27 04:54:20 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/27 04:54:20 PM | DATA_DIR=./data
+12/27 04:54:20 PM | DATASET=trafic
+12/27 04:54:20 PM | EPOCHS=15
+12/27 04:54:20 PM | EVAL_BATCH_SIZE=100
+12/27 04:54:20 PM | GPU=0
+12/27 04:54:20 PM | JOB_DIR=./result/resnet_56/trafic
+12/27 04:54:20 PM | LR=0.01
+12/27 04:54:20 PM | LR_DECAY_STEP=5,10
+12/27 04:54:20 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/27 04:54:20 PM | RESUME_MASK=None
+12/27 04:54:20 PM | START_COV=0
+12/27 04:54:20 PM | TRAIN_BATCH_SIZE=32
+12/27 04:54:20 PM | 
+12/27 04:54:20 PM | ==> Preparing data..
+12/27 04:54:20 PM | ==> Building model..
+12/27 04:54:23 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/27 04:54:23 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/27 04:54:23 PM | 
+Epoch: 0
+12/27 05:00:31 PM | Epoch[0](781/782): Prec@1(1,5) 41.24, 3.60
+12/27 05:00:31 PM | Saving to resnet_56_cov1.pt
+12/27 05:00:31 PM | =>Best accuracy 41.240
+12/27 05:00:31 PM | 
+Epoch: 1
+12/27 05:06:33 PM | Epoch[1](781/782): Prec@1(1,5) 56.10, 2.95
+12/27 05:06:33 PM | Saving to resnet_56_cov1.pt
+12/27 05:06:33 PM | =>Best accuracy 56.099
+12/27 05:06:33 PM | 
+Epoch: 2
+12/27 05:12:36 PM | Epoch[2](781/782): Prec@1(1,5) 68.40, 1.79
+12/27 05:12:36 PM | Saving to resnet_56_cov1.pt
+12/27 05:12:36 PM | =>Best accuracy 68.404
+12/27 05:12:36 PM | 
+Epoch: 3
+12/27 05:18:39 PM | Epoch[3](781/782): Prec@1(1,5) 79.43, 0.78
+12/27 05:18:39 PM | Saving to resnet_56_cov1.pt
+12/27 05:18:39 PM | =>Best accuracy 79.427
+12/27 05:18:39 PM | 
+Epoch: 4
+12/27 05:24:49 PM | Epoch[4](781/782): Prec@1(1,5) 78.53, 0.68
+12/27 05:24:49 PM | =>Best accuracy 79.427
+12/27 05:24:49 PM | 
+Epoch: 5
+12/27 05:30:52 PM | Epoch[5](781/782): Prec@1(1,5) 88.37, 0.22
+12/27 05:30:52 PM | Saving to resnet_56_cov1.pt
+12/27 05:30:52 PM | =>Best accuracy 88.367
+12/27 05:30:52 PM | 
+Epoch: 6
+12/27 05:36:56 PM | Epoch[6](781/782): Prec@1(1,5) 88.82, 0.19
+12/27 05:36:56 PM | Saving to resnet_56_cov1.pt
+12/27 05:36:56 PM | =>Best accuracy 88.821
+12/27 05:36:56 PM | 
+Epoch: 7
+12/27 05:42:59 PM | Epoch[7](781/782): Prec@1(1,5) 89.23, 0.16
+12/27 05:42:59 PM | Saving to resnet_56_cov1.pt
+12/27 05:43:00 PM | =>Best accuracy 89.227
+12/27 05:43:00 PM | 
+Epoch: 8
+12/27 05:49:02 PM | Epoch[8](781/782): Prec@1(1,5) 89.67, 0.14
+12/27 05:49:02 PM | Saving to resnet_56_cov1.pt
+12/27 05:49:02 PM | =>Best accuracy 89.667
+12/27 05:49:02 PM | 
+Epoch: 9
+12/27 05:55:04 PM | Epoch[9](781/782): Prec@1(1,5) 89.54, 0.11
+12/27 05:55:04 PM | =>Best accuracy 89.667
+12/27 05:55:04 PM | 
+Epoch: 10
+12/27 06:01:07 PM | Epoch[10](781/782): Prec@1(1,5) 89.95, 0.10
+12/27 06:01:07 PM | Saving to resnet_56_cov1.pt
+12/27 06:01:07 PM | =>Best accuracy 89.947
+12/27 06:01:07 PM | 
+Epoch: 11
+12/27 06:07:10 PM | Epoch[11](781/782): Prec@1(1,5) 90.07, 0.11
+12/27 06:07:10 PM | Saving to resnet_56_cov1.pt
+12/27 06:07:10 PM | =>Best accuracy 90.075
+12/27 06:07:10 PM | 
+Epoch: 12
+12/27 06:13:13 PM | Epoch[12](781/782): Prec@1(1,5) 90.08, 0.10
+12/27 06:13:13 PM | Saving to resnet_56_cov1.pt
+12/27 06:13:13 PM | =>Best accuracy 90.079
+12/27 06:13:13 PM | 
+Epoch: 13
+12/27 06:19:15 PM | Epoch[13](781/782): Prec@1(1,5) 90.06, 0.08
+12/27 06:19:15 PM | =>Best accuracy 90.079
+12/27 06:19:15 PM | 
+Epoch: 14
+12/27 06:25:17 PM | Epoch[14](781/782): Prec@1(1,5) 90.18, 0.09
+12/27 06:25:17 PM | Saving to resnet_56_cov1.pt
+12/27 06:25:17 PM | =>Best accuracy 90.185
+12/27 06:25:17 PM | cov-id: 1 ====> Resuming from pruned_checkpoint...
+12/27 06:25:17 PM | 
+Epoch: 0
+12/27 06:31:18 PM | Epoch[0](781/782): Prec@1(1,5) 83.83, 0.39
+12/27 06:31:18 PM | Saving to resnet_56_cov2.pt
+12/27 06:31:18 PM | =>Best accuracy 83.831
+12/27 06:31:18 PM | 
+Epoch: 1
+12/27 06:37:27 PM | Epoch[1](781/782): Prec@1(1,5) 83.63, 0.46
+12/27 06:37:27 PM | =>Best accuracy 83.831
+12/27 06:37:27 PM | 
+Epoch: 2
+12/27 06:43:32 PM | Epoch[2](781/782): Prec@1(1,5) 84.98, 0.28
+12/27 06:43:32 PM | Saving to resnet_56_cov2.pt
+12/27 06:43:32 PM | =>Best accuracy 84.979
+12/27 06:43:32 PM | 
+Epoch: 3
+12/27 06:49:40 PM | Epoch[3](781/782): Prec@1(1,5) 85.32, 0.37
+12/27 06:49:40 PM | Saving to resnet_56_cov2.pt
+12/27 06:49:40 PM | =>Best accuracy 85.319
+12/27 06:49:40 PM | 
+Epoch: 4
+12/27 06:55:48 PM | Epoch[4](781/782): Prec@1(1,5) 87.70, 0.22
+12/27 06:55:48 PM | Saving to resnet_56_cov2.pt
+12/27 06:55:48 PM | =>Best accuracy 87.699
+12/27 06:55:48 PM | 
+Epoch: 5
+12/27 07:02:06 PM | Epoch[5](781/782): Prec@1(1,5) 91.23, 0.07
+12/27 07:02:06 PM | Saving to resnet_56_cov2.pt
+12/27 07:02:06 PM | =>Best accuracy 91.233
+12/27 07:02:06 PM | 
+Epoch: 6
+12/27 07:08:33 PM | Epoch[6](781/782): Prec@1(1,5) 91.76, 0.04
+12/27 07:08:33 PM | Saving to resnet_56_cov2.pt
+12/27 07:08:33 PM | =>Best accuracy 91.762
+12/27 07:08:33 PM | 
+Epoch: 7
+12/27 07:14:41 PM | Epoch[7](781/782): Prec@1(1,5) 91.76, 0.03
+12/27 07:14:41 PM | =>Best accuracy 91.762
+12/27 07:14:41 PM | 
+Epoch: 8
+12/27 07:20:45 PM | Epoch[8](781/782): Prec@1(1,5) 92.19, 0.03
+12/27 07:20:45 PM | Saving to resnet_56_cov2.pt
+12/27 07:20:45 PM | =>Best accuracy 92.194
+12/27 07:20:45 PM | 
+Epoch: 9
+12/27 07:27:01 PM | Epoch[9](781/782): Prec@1(1,5) 92.09, 0.04
+12/27 07:27:01 PM | =>Best accuracy 92.194
+12/27 07:27:01 PM | 
+Epoch: 10
+12/27 07:33:14 PM | Epoch[10](781/782): Prec@1(1,5) 92.48, 0.03
+12/27 07:33:14 PM | Saving to resnet_56_cov2.pt
+12/27 07:33:14 PM | =>Best accuracy 92.480
+12/27 07:33:14 PM | 
+Epoch: 11
+12/27 07:39:17 PM | Epoch[11](781/782): Prec@1(1,5) 92.55, 0.04
+12/27 07:39:17 PM | Saving to resnet_56_cov2.pt
+12/27 07:39:17 PM | =>Best accuracy 92.554
+12/27 07:39:17 PM | 
+Epoch: 12
+12/27 07:45:22 PM | Epoch[12](781/782): Prec@1(1,5) 92.41, 0.03
+12/27 07:45:22 PM | =>Best accuracy 92.554
+12/27 07:45:22 PM | 
+Epoch: 13
+12/27 07:51:34 PM | Epoch[13](781/782): Prec@1(1,5) 92.62, 0.02
+12/27 07:51:34 PM | Saving to resnet_56_cov2.pt
+12/27 07:51:34 PM | =>Best accuracy 92.618
+12/27 07:51:34 PM | 
+Epoch: 14
+12/27 07:58:06 PM | Epoch[14](781/782): Prec@1(1,5) 92.64, 0.03
+12/27 07:58:06 PM | Saving to resnet_56_cov2.pt
+12/27 07:58:06 PM | =>Best accuracy 92.642
+12/27 07:58:06 PM | cov-id: 2 ====> Resuming from pruned_checkpoint...
+12/27 07:58:06 PM | 
+Epoch: 0
+12/27 08:04:38 PM | Epoch[0](781/782): Prec@1(1,5) 87.60, 0.22
+12/27 08:04:38 PM | Saving to resnet_56_cov3.pt
+12/27 08:04:38 PM | =>Best accuracy 87.605
+12/27 08:04:38 PM | 
+Epoch: 1
+12/27 08:11:09 PM | Epoch[1](781/782): Prec@1(1,5) 86.94, 0.29
+12/27 08:11:09 PM | =>Best accuracy 87.605
+12/27 08:11:09 PM | 
+Epoch: 2
+12/27 08:17:44 PM | Epoch[2](781/782): Prec@1(1,5) 86.48, 0.21
+12/27 08:17:44 PM | =>Best accuracy 87.605
+12/27 08:17:44 PM | 
+Epoch: 3
+12/27 08:24:19 PM | Epoch[3](781/782): Prec@1(1,5) 87.98, 0.17
+12/27 08:24:19 PM | Saving to resnet_56_cov3.pt
+12/27 08:24:19 PM | =>Best accuracy 87.983
+12/27 08:24:19 PM | 
+Epoch: 4
+12/27 08:30:32 PM | Epoch[4](781/782): Prec@1(1,5) 89.57, 0.12
+12/27 08:30:32 PM | Saving to resnet_56_cov3.pt
+12/27 08:30:32 PM | =>Best accuracy 89.573
+12/27 08:30:32 PM | 
+Epoch: 5
+12/27 08:36:34 PM | Epoch[5](781/782): Prec@1(1,5) 92.34, 0.03
+12/27 08:36:34 PM | Saving to resnet_56_cov3.pt
+12/27 08:36:34 PM | =>Best accuracy 92.338
+12/27 08:36:34 PM | 
+Epoch: 6
+12/27 08:42:40 PM | Epoch[6](781/782): Prec@1(1,5) 92.84, 0.03
+12/27 08:42:40 PM | Saving to resnet_56_cov3.pt
+12/27 08:42:40 PM | =>Best accuracy 92.842
+12/27 08:42:40 PM | 
+Epoch: 7
+12/27 08:49:12 PM | Epoch[7](781/782): Prec@1(1,5) 92.90, 0.03
+12/27 08:49:12 PM | Saving to resnet_56_cov3.pt
+12/27 08:49:12 PM | =>Best accuracy 92.904
+12/27 08:49:12 PM | 
+Epoch: 8
+12/27 08:55:37 PM | Epoch[8](781/782): Prec@1(1,5) 92.82, 0.03
+12/27 08:55:37 PM | =>Best accuracy 92.904
+12/27 08:55:37 PM | 
+Epoch: 9
+12/27 09:01:42 PM | Epoch[9](781/782): Prec@1(1,5) 92.82, 0.02
+12/27 09:01:42 PM | =>Best accuracy 92.904
+12/27 09:01:42 PM | 
+Epoch: 10
+12/27 09:07:43 PM | Epoch[10](781/782): Prec@1(1,5) 93.10, 0.02
+12/27 09:07:43 PM | Saving to resnet_56_cov3.pt
+12/27 09:07:43 PM | =>Best accuracy 93.096
+12/27 09:07:43 PM | 
+Epoch: 11
+12/27 09:13:44 PM | Epoch[11](781/782): Prec@1(1,5) 93.05, 0.02
+12/27 09:13:44 PM | =>Best accuracy 93.096
+12/27 09:13:44 PM | 
+Epoch: 12
+12/27 09:19:46 PM | Epoch[12](781/782): Prec@1(1,5) 93.23, 0.01
+12/27 09:19:46 PM | Saving to resnet_56_cov3.pt
+12/27 09:19:46 PM | =>Best accuracy 93.230
+12/27 09:19:46 PM | 
+Epoch: 13
+12/27 09:26:12 PM | Epoch[13](781/782): Prec@1(1,5) 93.22, 0.02
+12/27 09:26:12 PM | =>Best accuracy 93.230
+12/27 09:26:12 PM | 
+Epoch: 14
+12/27 09:32:39 PM | Epoch[14](781/782): Prec@1(1,5) 93.17, 0.02
+12/27 09:32:39 PM | =>Best accuracy 93.230
+12/27 09:32:39 PM | cov-id: 3 ====> Resuming from pruned_checkpoint...
+12/27 09:32:39 PM | 
+Epoch: 0
+12/27 09:38:44 PM | Epoch[0](781/782): Prec@1(1,5) 89.60, 0.14
+12/27 09:38:44 PM | Saving to resnet_56_cov4.pt
+12/27 09:38:44 PM | =>Best accuracy 89.599
+12/27 09:38:44 PM | 
+Epoch: 1
+12/27 09:45:09 PM | Epoch[1](781/782): Prec@1(1,5) 89.29, 0.19
+12/27 09:45:09 PM | =>Best accuracy 89.599
+12/27 09:45:09 PM | 
+Epoch: 2
+12/27 09:51:40 PM | Epoch[2](781/782): Prec@1(1,5) 88.65, 0.19
+12/27 09:51:40 PM | =>Best accuracy 89.599
+12/27 09:51:40 PM | 
+Epoch: 3
+12/27 09:57:59 PM | Epoch[3](781/782): Prec@1(1,5) 89.03, 0.13
+12/27 09:57:59 PM | =>Best accuracy 89.599
+12/27 09:57:59 PM | 
+Epoch: 4
+12/27 10:04:06 PM | Epoch[4](781/782): Prec@1(1,5) 89.31, 0.13
+12/27 10:04:06 PM | =>Best accuracy 89.599
+12/27 10:04:06 PM | 
+Epoch: 5
+12/27 10:10:10 PM | Epoch[5](781/782): Prec@1(1,5) 92.94, 0.03
+12/27 10:10:10 PM | Saving to resnet_56_cov4.pt
+12/27 10:10:10 PM | =>Best accuracy 92.942
+12/27 10:10:10 PM | 
+Epoch: 6
+12/27 10:16:13 PM | Epoch[6](781/782): Prec@1(1,5) 93.04, 0.03
+12/27 10:16:13 PM | Saving to resnet_56_cov4.pt
+12/27 10:16:13 PM | =>Best accuracy 93.038
+12/27 10:16:13 PM | 
+Epoch: 7
+12/27 10:22:17 PM | Epoch[7](781/782): Prec@1(1,5) 93.64, 0.01
+12/27 10:22:17 PM | Saving to resnet_56_cov4.pt
+12/27 10:22:17 PM | =>Best accuracy 93.642
+12/27 10:22:17 PM | 
+Epoch: 8
+12/27 10:28:19 PM | Epoch[8](781/782): Prec@1(1,5) 93.33, 0.03
+12/27 10:28:19 PM | =>Best accuracy 93.642
+12/27 10:28:19 PM | 
+Epoch: 9
+12/27 10:34:23 PM | Epoch[9](781/782): Prec@1(1,5) 93.62, 0.02
+12/27 10:34:23 PM | =>Best accuracy 93.642
+12/27 10:34:23 PM | 
+Epoch: 10
+12/27 10:40:25 PM | Epoch[10](781/782): Prec@1(1,5) 93.85, 0.03
+12/27 10:40:25 PM | Saving to resnet_56_cov4.pt
+12/27 10:40:25 PM | =>Best accuracy 93.846
+12/27 10:40:25 PM | 
+Epoch: 11
+12/27 10:46:27 PM | Epoch[11](781/782): Prec@1(1,5) 93.84, 0.02
+12/27 10:46:27 PM | =>Best accuracy 93.846
+12/27 10:46:27 PM | 
+Epoch: 12
+12/27 10:52:29 PM | Epoch[12](781/782): Prec@1(1,5) 93.71, 0.02
+12/27 10:52:29 PM | =>Best accuracy 93.846
+12/27 10:52:29 PM | 
+Epoch: 13
+12/27 10:58:33 PM | Epoch[13](781/782): Prec@1(1,5) 93.98, 0.02
+12/27 10:58:33 PM | Saving to resnet_56_cov4.pt
+12/27 10:58:33 PM | =>Best accuracy 93.982
+12/27 10:58:33 PM | 
+Epoch: 14
+12/27 11:04:37 PM | Epoch[14](781/782): Prec@1(1,5) 93.77, 0.02
+12/27 11:04:37 PM | =>Best accuracy 93.982
+12/27 11:04:37 PM | cov-id: 4 ====> Resuming from pruned_checkpoint...
+12/27 11:04:37 PM | 
+Epoch: 0
+12/27 11:10:39 PM | Epoch[0](781/782): Prec@1(1,5) 88.92, 0.16
+12/27 11:10:39 PM | Saving to resnet_56_cov5.pt
+12/27 11:10:39 PM | =>Best accuracy 88.919
+12/27 11:10:39 PM | 
+Epoch: 1
+12/27 11:16:41 PM | Epoch[1](781/782): Prec@1(1,5) 86.57, 0.23
+12/27 11:16:41 PM | =>Best accuracy 88.919
+12/27 11:16:41 PM | 
+Epoch: 2
+12/27 11:22:43 PM | Epoch[2](781/782): Prec@1(1,5) 90.57, 0.11
+12/27 11:22:43 PM | Saving to resnet_56_cov5.pt
+12/27 11:22:43 PM | =>Best accuracy 90.571
+12/27 11:22:43 PM | 
+Epoch: 3
+12/27 11:28:44 PM | Epoch[3](781/782): Prec@1(1,5) 88.79, 0.18
+12/27 11:28:44 PM | =>Best accuracy 90.571
+12/27 11:28:44 PM | 
+Epoch: 4
+12/27 11:34:47 PM | Epoch[4](781/782): Prec@1(1,5) 89.85, 0.09
+12/27 11:34:47 PM | =>Best accuracy 90.571
+12/27 11:34:47 PM | 
+Epoch: 5
+12/27 11:40:50 PM | Epoch[5](781/782): Prec@1(1,5) 93.32, 0.02
+12/27 11:40:50 PM | Saving to resnet_56_cov5.pt
+12/27 11:40:50 PM | =>Best accuracy 93.318
+12/27 11:40:50 PM | 
+Epoch: 6
+12/27 11:46:52 PM | Epoch[6](781/782): Prec@1(1,5) 93.59, 0.02
+12/27 11:46:52 PM | Saving to resnet_56_cov5.pt
+12/27 11:46:52 PM | =>Best accuracy 93.594
+12/27 11:46:52 PM | 
+Epoch: 7
+12/27 11:52:54 PM | Epoch[7](781/782): Prec@1(1,5) 93.44, 0.01
+12/27 11:52:54 PM | =>Best accuracy 93.594
+12/27 11:52:54 PM | 
+Epoch: 8
+12/27 11:58:55 PM | Epoch[8](781/782): Prec@1(1,5) 93.56, 0.01
+12/27 11:58:55 PM | =>Best accuracy 93.594
+12/27 11:58:55 PM | 
+Epoch: 9
+12/28 12:04:56 AM | Epoch[9](781/782): Prec@1(1,5) 93.80, 0.00
+12/28 12:04:56 AM | Saving to resnet_56_cov5.pt
+12/28 12:04:56 AM | =>Best accuracy 93.804
+12/28 12:04:56 AM | 
+Epoch: 10
+12/28 12:10:57 AM | Epoch[10](781/782): Prec@1(1,5) 94.14, 0.00
+12/28 12:10:57 AM | Saving to resnet_56_cov5.pt
+12/28 12:10:57 AM | =>Best accuracy 94.136
+12/28 12:10:57 AM | 
+Epoch: 11
+12/28 12:16:59 AM | Epoch[11](781/782): Prec@1(1,5) 94.06, 0.01
+12/28 12:16:59 AM | =>Best accuracy 94.136
+12/28 12:16:59 AM | 
+Epoch: 12
+12/28 12:23:00 AM | Epoch[12](781/782): Prec@1(1,5) 94.01, 0.01
+12/28 12:23:00 AM | =>Best accuracy 94.136
+12/28 12:23:00 AM | 
+Epoch: 13
+12/28 12:29:01 AM | Epoch[13](781/782): Prec@1(1,5) 94.08, 0.01
+12/28 12:29:01 AM | =>Best accuracy 94.136
+12/28 12:29:01 AM | 
+Epoch: 14
+12/28 12:35:02 AM | Epoch[14](781/782): Prec@1(1,5) 94.11, 0.01
+12/28 12:35:02 AM | =>Best accuracy 94.136
+12/28 12:35:02 AM | cov-id: 5 ====> Resuming from pruned_checkpoint...
+12/28 12:35:02 AM | 
+Epoch: 0
+12/28 12:41:03 AM | Epoch[0](781/782): Prec@1(1,5) 89.80, 0.11
+12/28 12:41:03 AM | Saving to resnet_56_cov6.pt
+12/28 12:41:03 AM | =>Best accuracy 89.797
+12/28 12:41:03 AM | 
+Epoch: 1
+12/28 12:47:04 AM | Epoch[1](781/782): Prec@1(1,5) 88.23, 0.21
+12/28 12:47:04 AM | =>Best accuracy 89.797
+12/28 12:47:04 AM | 
+Epoch: 2
+12/28 12:53:05 AM | Epoch[2](781/782): Prec@1(1,5) 90.76, 0.11
+12/28 12:53:05 AM | Saving to resnet_56_cov6.pt
+12/28 12:53:05 AM | =>Best accuracy 90.759
+12/28 12:53:05 AM | 
+Epoch: 3
+12/28 12:59:06 AM | Epoch[3](781/782): Prec@1(1,5) 91.01, 0.09
+12/28 12:59:06 AM | Saving to resnet_56_cov6.pt
+12/28 12:59:06 AM | =>Best accuracy 91.009
+12/28 12:59:06 AM | 
+Epoch: 4
+12/28 01:05:07 AM | Epoch[4](781/782): Prec@1(1,5) 90.64, 0.08
+12/28 01:05:07 AM | =>Best accuracy 91.009
+12/28 01:05:07 AM | 
+Epoch: 5
+12/28 01:11:09 AM | Epoch[5](781/782): Prec@1(1,5) 93.47, 0.01
+12/28 01:11:09 AM | Saving to resnet_56_cov6.pt
+12/28 01:11:09 AM | =>Best accuracy 93.468
+12/28 01:11:09 AM | 
+Epoch: 6
+12/28 01:17:10 AM | Epoch[6](781/782): Prec@1(1,5) 94.06, 0.01
+12/28 01:17:10 AM | Saving to resnet_56_cov6.pt
+12/28 01:17:10 AM | =>Best accuracy 94.062
+12/28 01:17:10 AM | 
+Epoch: 7
+12/28 01:23:11 AM | Epoch[7](781/782): Prec@1(1,5) 94.11, 0.01
+12/28 01:23:11 AM | Saving to resnet_56_cov6.pt
+12/28 01:23:12 AM | =>Best accuracy 94.112
+12/28 01:23:12 AM | 
+Epoch: 8
+12/28 01:29:12 AM | Epoch[8](781/782): Prec@1(1,5) 94.44, 0.01
+12/28 01:29:12 AM | Saving to resnet_56_cov6.pt
+12/28 01:29:12 AM | =>Best accuracy 94.444
+12/28 01:29:12 AM | 
+Epoch: 9
+12/28 01:35:14 AM | Epoch[9](781/782): Prec@1(1,5) 94.22, 0.01
+12/28 01:35:14 AM | =>Best accuracy 94.444
+12/28 01:35:14 AM | 
+Epoch: 10
+12/28 01:41:15 AM | Epoch[10](781/782): Prec@1(1,5) 94.23, 0.01
+12/28 01:41:15 AM | =>Best accuracy 94.444
+12/28 01:41:15 AM | 
+Epoch: 11
+12/28 01:47:16 AM | Epoch[11](781/782): Prec@1(1,5) 94.32, 0.01
+12/28 01:47:16 AM | =>Best accuracy 94.444
+12/28 01:47:16 AM | 
+Epoch: 12
+12/28 01:53:17 AM | Epoch[12](781/782): Prec@1(1,5) 94.38, 0.01
+12/28 01:53:17 AM | =>Best accuracy 94.444
+12/28 01:53:17 AM | 
+Epoch: 13
+12/28 01:59:18 AM | Epoch[13](781/782): Prec@1(1,5) 94.16, 0.01
+12/28 01:59:18 AM | =>Best accuracy 94.444
+12/28 01:59:18 AM | 
+Epoch: 14
+12/28 02:05:19 AM | Epoch[14](781/782): Prec@1(1,5) 94.59, 0.01
+12/28 02:05:19 AM | Saving to resnet_56_cov6.pt
+12/28 02:05:19 AM | =>Best accuracy 94.586
+12/28 02:05:19 AM | cov-id: 6 ====> Resuming from pruned_checkpoint...
+12/28 02:05:19 AM | 
+Epoch: 0
+12/28 02:11:20 AM | Epoch[0](781/782): Prec@1(1,5) 84.41, 0.46
+12/28 02:11:20 AM | Saving to resnet_56_cov7.pt
+12/28 02:11:20 AM | =>Best accuracy 84.415
+12/28 02:11:20 AM | 
+Epoch: 1
+12/28 02:17:22 AM | Epoch[1](781/782): Prec@1(1,5) 87.02, 0.24
+12/28 02:17:22 AM | Saving to resnet_56_cov7.pt
+12/28 02:17:22 AM | =>Best accuracy 87.021
+12/28 02:17:22 AM | 
+Epoch: 2
+12/28 02:23:23 AM | Epoch[2](781/782): Prec@1(1,5) 90.64, 0.10
+12/28 02:23:23 AM | Saving to resnet_56_cov7.pt
+12/28 02:23:23 AM | =>Best accuracy 90.639
+12/28 02:23:23 AM | 
+Epoch: 3
+12/28 02:29:24 AM | Epoch[3](781/782): Prec@1(1,5) 89.44, 0.11
+12/28 02:29:24 AM | =>Best accuracy 90.639
+12/28 02:29:24 AM | 
+Epoch: 4
+12/28 02:35:25 AM | Epoch[4](781/782): Prec@1(1,5) 90.23, 0.10
+12/28 02:35:25 AM | =>Best accuracy 90.639
+12/28 02:35:25 AM | 
+Epoch: 5
+12/28 02:41:26 AM | Epoch[5](781/782): Prec@1(1,5) 93.73, 0.01
+12/28 02:41:26 AM | Saving to resnet_56_cov7.pt
+12/28 02:41:26 AM | =>Best accuracy 93.730
+12/28 02:41:26 AM | 
+Epoch: 6
+12/28 02:47:26 AM | Epoch[6](781/782): Prec@1(1,5) 93.99, 0.01
+12/28 02:47:26 AM | Saving to resnet_56_cov7.pt
+12/28 02:47:26 AM | =>Best accuracy 93.988
+12/28 02:47:26 AM | 
+Epoch: 7
+12/28 02:53:27 AM | Epoch[7](781/782): Prec@1(1,5) 94.16, 0.01
+12/28 02:53:27 AM | Saving to resnet_56_cov7.pt
+12/28 02:53:27 AM | =>Best accuracy 94.160
+12/28 02:53:27 AM | 
+Epoch: 8
+12/28 02:59:28 AM | Epoch[8](781/782): Prec@1(1,5) 94.10, 0.00
+12/28 02:59:28 AM | =>Best accuracy 94.160
+12/28 02:59:28 AM | 
+Epoch: 9
+12/28 03:05:29 AM | Epoch[9](781/782): Prec@1(1,5) 94.45, 0.01
+12/28 03:05:29 AM | Saving to resnet_56_cov7.pt
+12/28 03:05:29 AM | =>Best accuracy 94.452
+12/28 03:05:29 AM | 
+Epoch: 10
+12/28 03:11:30 AM | Epoch[10](781/782): Prec@1(1,5) 94.76, 0.01
+12/28 03:11:30 AM | Saving to resnet_56_cov7.pt
+12/28 03:11:30 AM | =>Best accuracy 94.758
+12/28 03:11:30 AM | 
+Epoch: 11
+12/28 03:17:31 AM | Epoch[11](781/782): Prec@1(1,5) 94.53, 0.00
+12/28 03:17:31 AM | =>Best accuracy 94.758
+12/28 03:17:31 AM | 
+Epoch: 12
+12/28 03:23:31 AM | Epoch[12](781/782): Prec@1(1,5) 94.64, 0.00
+12/28 03:23:31 AM | =>Best accuracy 94.758
+12/28 03:23:31 AM | 
+Epoch: 13
+12/28 03:29:32 AM | Epoch[13](781/782): Prec@1(1,5) 94.66, 0.00
+12/28 03:29:32 AM | =>Best accuracy 94.758
+12/28 03:29:32 AM | 
+Epoch: 14
+12/28 03:35:33 AM | Epoch[14](781/782): Prec@1(1,5) 94.51, 0.00
+12/28 03:35:33 AM | =>Best accuracy 94.758
+12/28 03:35:33 AM | cov-id: 7 ====> Resuming from pruned_checkpoint...
+12/28 03:35:33 AM | 
+Epoch: 0
+12/28 03:41:33 AM | Epoch[0](781/782): Prec@1(1,5) 88.87, 0.22
+12/28 03:41:33 AM | Saving to resnet_56_cov8.pt
+12/28 03:41:33 AM | =>Best accuracy 88.871
+12/28 03:41:33 AM | 
+Epoch: 1
+12/28 03:47:34 AM | Epoch[1](781/782): Prec@1(1,5) 89.23, 0.14
+12/28 03:47:34 AM | Saving to resnet_56_cov8.pt
+12/28 03:47:34 AM | =>Best accuracy 89.227
+12/28 03:47:34 AM | 
+Epoch: 2
+12/28 03:53:35 AM | Epoch[2](781/782): Prec@1(1,5) 89.76, 0.12
+12/28 03:53:35 AM | Saving to resnet_56_cov8.pt
+12/28 03:53:35 AM | =>Best accuracy 89.761
+12/28 03:53:35 AM | 
+Epoch: 3
+12/28 03:59:35 AM | Epoch[3](781/782): Prec@1(1,5) 90.57, 0.10
+12/28 03:59:35 AM | Saving to resnet_56_cov8.pt
+12/28 03:59:35 AM | =>Best accuracy 90.575
+12/28 03:59:35 AM | 
+Epoch: 4
+12/28 04:05:36 AM | Epoch[4](781/782): Prec@1(1,5) 89.01, 0.21
+12/28 04:05:36 AM | =>Best accuracy 90.575
+12/28 04:05:36 AM | 
+Epoch: 5
+12/28 04:11:37 AM | Epoch[5](781/782): Prec@1(1,5) 94.01, 0.02
+12/28 04:11:37 AM | Saving to resnet_56_cov8.pt
+12/28 04:11:37 AM | =>Best accuracy 94.012
+12/28 04:11:37 AM | 
+Epoch: 6
+12/28 04:17:38 AM | Epoch[6](781/782): Prec@1(1,5) 94.56, 0.01
+12/28 04:17:38 AM | Saving to resnet_56_cov8.pt
+12/28 04:17:38 AM | =>Best accuracy 94.564
+12/28 04:17:38 AM | 
+Epoch: 7
+12/28 04:23:38 AM | Epoch[7](781/782): Prec@1(1,5) 94.43, 0.01
+12/28 04:23:38 AM | =>Best accuracy 94.564
+12/28 04:23:38 AM | 
+Epoch: 8
+12/28 04:29:39 AM | Epoch[8](781/782): Prec@1(1,5) 94.47, 0.01
+12/28 04:29:39 AM | =>Best accuracy 94.564
+12/28 04:29:39 AM | 
+Epoch: 9
+12/28 04:35:40 AM | Epoch[9](781/782): Prec@1(1,5) 94.44, 0.01
+12/28 04:35:40 AM | =>Best accuracy 94.564
+12/28 04:35:40 AM | 
+Epoch: 10
+12/28 04:41:41 AM | Epoch[10](781/782): Prec@1(1,5) 94.71, 0.01
+12/28 04:41:41 AM | Saving to resnet_56_cov8.pt
+12/28 04:41:41 AM | =>Best accuracy 94.714
+12/28 04:41:41 AM | 
+Epoch: 11
+12/28 04:47:41 AM | Epoch[11](781/782): Prec@1(1,5) 94.78, 0.01
+12/28 04:47:41 AM | Saving to resnet_56_cov8.pt
+12/28 04:47:41 AM | =>Best accuracy 94.784
+12/28 04:47:41 AM | 
+Epoch: 12
+12/28 04:53:42 AM | Epoch[12](781/782): Prec@1(1,5) 94.84, 0.01
+12/28 04:53:42 AM | Saving to resnet_56_cov8.pt
+12/28 04:53:42 AM | =>Best accuracy 94.842
+12/28 04:53:42 AM | 
+Epoch: 13
+12/28 04:59:43 AM | Epoch[13](781/782): Prec@1(1,5) 94.91, 0.01
+12/28 04:59:43 AM | Saving to resnet_56_cov8.pt
+12/28 04:59:43 AM | =>Best accuracy 94.906
+12/28 04:59:43 AM | 
+Epoch: 14
+12/28 05:05:43 AM | Epoch[14](781/782): Prec@1(1,5) 94.94, 0.00
+12/28 05:05:43 AM | Saving to resnet_56_cov8.pt
+12/28 05:05:43 AM | =>Best accuracy 94.936
+12/28 05:05:43 AM | cov-id: 8 ====> Resuming from pruned_checkpoint...
+12/28 05:05:44 AM | 
+Epoch: 0
+12/28 05:11:44 AM | Epoch[0](781/782): Prec@1(1,5) 90.72, 0.11
+12/28 05:11:44 AM | Saving to resnet_56_cov9.pt
+12/28 05:11:44 AM | =>Best accuracy 90.721
+12/28 05:11:44 AM | 
+Epoch: 1
+12/28 05:17:45 AM | Epoch[1](781/782): Prec@1(1,5) 91.36, 0.06
+12/28 05:17:45 AM | Saving to resnet_56_cov9.pt
+12/28 05:17:45 AM | =>Best accuracy 91.357
+12/28 05:17:45 AM | 
+Epoch: 2
+12/28 05:23:46 AM | Epoch[2](781/782): Prec@1(1,5) 90.09, 0.07
+12/28 05:23:46 AM | =>Best accuracy 91.357
+12/28 05:23:46 AM | 
+Epoch: 3
+12/28 05:29:47 AM | Epoch[3](781/782): Prec@1(1,5) 88.29, 0.22
+12/28 05:29:47 AM | =>Best accuracy 91.357
+12/28 05:29:47 AM | 
+Epoch: 4
+12/28 05:35:47 AM | Epoch[4](781/782): Prec@1(1,5) 91.34, 0.09
+12/28 05:35:47 AM | =>Best accuracy 91.357
+12/28 05:35:47 AM | 
+Epoch: 5
+12/28 05:41:48 AM | Epoch[5](781/782): Prec@1(1,5) 94.09, 0.01
+12/28 05:41:48 AM | Saving to resnet_56_cov9.pt
+12/28 05:41:48 AM | =>Best accuracy 94.092
+12/28 05:41:48 AM | 
+Epoch: 6
+12/28 05:47:49 AM | Epoch[6](781/782): Prec@1(1,5) 94.57, 0.01
+12/28 05:47:49 AM | Saving to resnet_56_cov9.pt
+12/28 05:47:50 AM | =>Best accuracy 94.574
+12/28 05:47:50 AM | 
+Epoch: 7
+12/28 05:53:51 AM | Epoch[7](781/782): Prec@1(1,5) 94.80, 0.01
+12/28 05:53:51 AM | Saving to resnet_56_cov9.pt
+12/28 05:53:51 AM | =>Best accuracy 94.796
+12/28 05:53:51 AM | 
+Epoch: 8
+12/28 05:59:51 AM | Epoch[8](781/782): Prec@1(1,5) 94.84, 0.01
+12/28 05:59:51 AM | Saving to resnet_56_cov9.pt
+12/28 05:59:51 AM | =>Best accuracy 94.838
+12/28 05:59:51 AM | 
+Epoch: 9
+12/28 06:05:52 AM | Epoch[9](781/782): Prec@1(1,5) 95.06, 0.01
+12/28 06:05:52 AM | Saving to resnet_56_cov9.pt
+12/28 06:05:52 AM | =>Best accuracy 95.060
+12/28 06:05:52 AM | 
+Epoch: 10
+12/28 06:11:53 AM | Epoch[10](781/782): Prec@1(1,5) 95.11, 0.01
+12/28 06:11:53 AM | Saving to resnet_56_cov9.pt
+12/28 06:11:53 AM | =>Best accuracy 95.114
+12/28 06:11:53 AM | 
+Epoch: 11
+12/28 06:17:54 AM | Epoch[11](781/782): Prec@1(1,5) 95.03, 0.01
+12/28 06:17:54 AM | =>Best accuracy 95.114
+12/28 06:17:54 AM | 
+Epoch: 12
+12/28 06:23:55 AM | Epoch[12](781/782): Prec@1(1,5) 94.93, 0.01
+12/28 06:23:55 AM | =>Best accuracy 95.114
+12/28 06:23:55 AM | 
+Epoch: 13
+12/28 06:29:55 AM | Epoch[13](781/782): Prec@1(1,5) 94.99, 0.01
+12/28 06:29:55 AM | =>Best accuracy 95.114
+12/28 06:29:55 AM | 
+Epoch: 14
+12/28 06:35:56 AM | Epoch[14](781/782): Prec@1(1,5) 95.04, 0.01
+12/28 06:35:56 AM | =>Best accuracy 95.114
+12/28 06:35:56 AM | cov-id: 9 ====> Resuming from pruned_checkpoint...
+12/28 06:35:56 AM | 
+Epoch: 0
+12/28 06:41:57 AM | Epoch[0](781/782): Prec@1(1,5) 90.33, 0.15
+12/28 06:41:57 AM | Saving to resnet_56_cov10.pt
+12/28 06:41:57 AM | =>Best accuracy 90.329
+12/28 06:41:57 AM | 
+Epoch: 1
+12/28 06:47:58 AM | Epoch[1](781/782): Prec@1(1,5) 89.88, 0.08
+12/28 06:47:58 AM | =>Best accuracy 90.329
+12/28 06:47:58 AM | 
+Epoch: 2
+12/28 06:53:59 AM | Epoch[2](781/782): Prec@1(1,5) 91.64, 0.06
+12/28 06:53:59 AM | Saving to resnet_56_cov10.pt
+12/28 06:53:59 AM | =>Best accuracy 91.645
+12/28 06:53:59 AM | 
+Epoch: 3
+12/28 06:59:59 AM | Epoch[3](781/782): Prec@1(1,5) 90.40, 0.08
+12/28 06:59:59 AM | =>Best accuracy 91.645
+12/28 06:59:59 AM | 
+Epoch: 4
+12/28 07:05:59 AM | Epoch[4](781/782): Prec@1(1,5) 90.17, 0.14
+12/28 07:05:59 AM | =>Best accuracy 91.645
+12/28 07:05:59 AM | 
+Epoch: 5
+12/28 07:12:00 AM | Epoch[5](781/782): Prec@1(1,5) 93.98, 0.01
+12/28 07:12:00 AM | Saving to resnet_56_cov10.pt
+12/28 07:12:00 AM | =>Best accuracy 93.982
+12/28 07:12:00 AM | 
+Epoch: 6
+12/28 07:18:01 AM | Epoch[6](781/782): Prec@1(1,5) 94.71, 0.01
+12/28 07:18:01 AM | Saving to resnet_56_cov10.pt
+12/28 07:18:01 AM | =>Best accuracy 94.712
+12/28 07:18:01 AM | 
+Epoch: 7
+12/28 07:24:01 AM | Epoch[7](781/782): Prec@1(1,5) 94.81, 0.01
+12/28 07:24:01 AM | Saving to resnet_56_cov10.pt
+12/28 07:24:01 AM | =>Best accuracy 94.814
+12/28 07:24:01 AM | 
+Epoch: 8
+12/28 07:30:02 AM | Epoch[8](781/782): Prec@1(1,5) 95.12, 0.01
+12/28 07:30:02 AM | Saving to resnet_56_cov10.pt
+12/28 07:30:02 AM | =>Best accuracy 95.116
+12/28 07:30:02 AM | 
+Epoch: 9
+12/28 07:36:02 AM | Epoch[9](781/782): Prec@1(1,5) 95.10, 0.01
+12/28 07:36:02 AM | =>Best accuracy 95.116
+12/28 07:36:02 AM | 
+Epoch: 10
+12/28 07:42:03 AM | Epoch[10](781/782): Prec@1(1,5) 95.07, 0.01
+12/28 07:42:03 AM | =>Best accuracy 95.116
+12/28 07:42:03 AM | 
+Epoch: 11
+12/28 07:48:04 AM | Epoch[11](781/782): Prec@1(1,5) 95.16, 0.01
+12/28 07:48:04 AM | Saving to resnet_56_cov10.pt
+12/28 07:48:04 AM | =>Best accuracy 95.164
+12/28 07:48:04 AM | 
+Epoch: 12
+12/28 07:54:04 AM | Epoch[12](781/782): Prec@1(1,5) 95.19, 0.01
+12/28 07:54:04 AM | Saving to resnet_56_cov10.pt
+12/28 07:54:04 AM | =>Best accuracy 95.190
+12/28 07:54:04 AM | 
+Epoch: 13
+12/28 08:00:05 AM | Epoch[13](781/782): Prec@1(1,5) 95.15, 0.01
+12/28 08:00:05 AM | =>Best accuracy 95.190
+12/28 08:00:05 AM | 
+Epoch: 14
+12/28 08:06:05 AM | Epoch[14](781/782): Prec@1(1,5) 95.36, 0.01
+12/28 08:06:05 AM | Saving to resnet_56_cov10.pt
+12/28 08:06:05 AM | =>Best accuracy 95.356
+12/28 08:06:05 AM | cov-id: 10 ====> Resuming from pruned_checkpoint...
+12/28 08:06:06 AM | 
+Epoch: 0
+12/28 08:12:06 AM | Epoch[0](781/782): Prec@1(1,5) 88.32, 0.18
+12/28 08:12:06 AM | Saving to resnet_56_cov11.pt
+12/28 08:12:06 AM | =>Best accuracy 88.321
+12/28 08:12:06 AM | 
+Epoch: 1
+12/28 08:18:07 AM | Epoch[1](781/782): Prec@1(1,5) 88.66, 0.13
+12/28 08:18:07 AM | Saving to resnet_56_cov11.pt
+12/28 08:18:07 AM | =>Best accuracy 88.661
+12/28 08:18:07 AM | 
+Epoch: 2
+12/28 08:24:07 AM | Epoch[2](781/782): Prec@1(1,5) 91.19, 0.10
+12/28 08:24:07 AM | Saving to resnet_56_cov11.pt
+12/28 08:24:07 AM | =>Best accuracy 91.187
+12/28 08:24:07 AM | 
+Epoch: 3
+12/28 08:30:08 AM | Epoch[3](781/782): Prec@1(1,5) 91.63, 0.06
+12/28 08:30:08 AM | Saving to resnet_56_cov11.pt
+12/28 08:30:08 AM | =>Best accuracy 91.633
+12/28 08:30:08 AM | 
+Epoch: 4
+12/28 08:36:11 AM | Epoch[4](781/782): Prec@1(1,5) 89.90, 0.16
+12/28 08:36:11 AM | =>Best accuracy 91.633
+12/28 08:36:11 AM | 
+Epoch: 5
+12/28 08:42:13 AM | Epoch[5](781/782): Prec@1(1,5) 94.45, 0.01
+12/28 08:42:13 AM | Saving to resnet_56_cov11.pt
+12/28 08:42:13 AM | =>Best accuracy 94.454
+12/28 08:42:13 AM | 
+Epoch: 6
+12/28 08:48:14 AM | Epoch[6](781/782): Prec@1(1,5) 94.87, 0.02
+12/28 08:48:14 AM | Saving to resnet_56_cov11.pt
+12/28 08:48:14 AM | =>Best accuracy 94.866
+12/28 08:48:14 AM | 
+Epoch: 7
+12/28 08:54:14 AM | Epoch[7](781/782): Prec@1(1,5) 95.26, 0.01
+12/28 08:54:14 AM | Saving to resnet_56_cov11.pt
+12/28 08:54:14 AM | =>Best accuracy 95.256
+12/28 08:54:14 AM | 
+Epoch: 8
+12/28 09:00:15 AM | Epoch[8](781/782): Prec@1(1,5) 94.93, 0.01
+12/28 09:00:15 AM | =>Best accuracy 95.256
+12/28 09:00:15 AM | 
+Epoch: 9
+12/28 09:06:16 AM | Epoch[9](781/782): Prec@1(1,5) 94.79, 0.01
+12/28 09:06:16 AM | =>Best accuracy 95.256
+12/28 09:06:16 AM | 
+Epoch: 10
+12/28 09:12:16 AM | Epoch[10](781/782): Prec@1(1,5) 95.37, 0.00
+12/28 09:12:16 AM | Saving to resnet_56_cov11.pt
+12/28 09:12:16 AM | =>Best accuracy 95.370
+12/28 09:12:16 AM | 
+Epoch: 11
+12/28 09:18:17 AM | Epoch[11](781/782): Prec@1(1,5) 95.19, 0.01
+12/28 09:18:17 AM | =>Best accuracy 95.370
+12/28 09:18:17 AM | 
+Epoch: 12
+12/28 09:24:17 AM | Epoch[12](781/782): Prec@1(1,5) 95.11, 0.01
+12/28 09:24:17 AM | =>Best accuracy 95.370
+12/28 09:24:17 AM | 
+Epoch: 13
+12/28 09:30:18 AM | Epoch[13](781/782): Prec@1(1,5) 95.17, 0.01
+12/28 09:30:18 AM | =>Best accuracy 95.370
+12/28 09:30:18 AM | 
+Epoch: 14
+12/28 09:36:18 AM | Epoch[14](781/782): Prec@1(1,5) 95.20, 0.01
+12/28 09:36:18 AM | =>Best accuracy 95.370
+12/28 09:36:18 AM | cov-id: 11 ====> Resuming from pruned_checkpoint...
+12/28 09:36:18 AM | 
+Epoch: 0
+12/28 09:42:19 AM | Epoch[0](781/782): Prec@1(1,5) 86.40, 0.32
+12/28 09:42:19 AM | Saving to resnet_56_cov12.pt
+12/28 09:42:19 AM | =>Best accuracy 86.403
+12/28 09:42:19 AM | 
+Epoch: 1
+12/28 09:48:19 AM | Epoch[1](781/782): Prec@1(1,5) 90.21, 0.11
+12/28 09:48:19 AM | Saving to resnet_56_cov12.pt
+12/28 09:48:19 AM | =>Best accuracy 90.213
+12/28 09:48:19 AM | 
+Epoch: 2
+12/28 09:54:19 AM | Epoch[2](781/782): Prec@1(1,5) 91.90, 0.07
+12/28 09:54:19 AM | Saving to resnet_56_cov12.pt
+12/28 09:54:19 AM | =>Best accuracy 91.896
+12/28 09:54:19 AM | 
+Epoch: 3
+12/28 10:00:19 AM | Epoch[3](781/782): Prec@1(1,5) 89.16, 0.19
+12/28 10:00:19 AM | =>Best accuracy 91.896
+12/28 10:00:19 AM | 
+Epoch: 4
+12/28 10:06:20 AM | Epoch[4](781/782): Prec@1(1,5) 89.93, 0.09
+12/28 10:06:20 AM | =>Best accuracy 91.896
+12/28 10:06:20 AM | 
+Epoch: 5
+12/28 10:12:20 AM | Epoch[5](781/782): Prec@1(1,5) 94.38, 0.01
+12/28 10:12:20 AM | Saving to resnet_56_cov12.pt
+12/28 10:12:20 AM | =>Best accuracy 94.382
+12/28 10:12:20 AM | 
+Epoch: 6
+12/28 10:18:23 AM | Epoch[6](781/782): Prec@1(1,5) 94.70, 0.01
+12/28 10:18:23 AM | Saving to resnet_56_cov12.pt
+12/28 10:18:23 AM | =>Best accuracy 94.704
+12/28 10:18:23 AM | 
+Epoch: 7
+12/28 04:49:33 PM | 
+12/28 04:49:33 PM | Parameters:
+12/28 04:49:33 PM | ARCH=resnet_56
+12/28 04:49:33 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 04:49:33 PM | DATA_DIR=./data
+12/28 04:49:33 PM | DATASET=trafic
+12/28 04:49:33 PM | EPOCHS=15
+12/28 04:49:33 PM | EVAL_BATCH_SIZE=100
+12/28 04:49:33 PM | GPU=0
+12/28 04:49:33 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 04:49:33 PM | LR=0.01
+12/28 04:49:33 PM | LR_DECAY_STEP=5,10
+12/28 04:49:33 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 04:49:33 PM | RESUME_MASK=None
+12/28 04:49:33 PM | START_COV=0
+12/28 04:49:33 PM | TRAIN_BATCH_SIZE=32
+12/28 04:49:33 PM | 
+12/28 04:49:33 PM | ==> Preparing data..
+12/28 04:49:33 PM | ==> Building model..
+12/28 04:49:35 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/28 04:49:35 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/28 04:49:55 PM | 
+12/28 04:49:55 PM | Parameters:
+12/28 04:49:55 PM | ARCH=resnet_56
+12/28 04:49:55 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 04:49:55 PM | DATA_DIR=./data
+12/28 04:49:55 PM | DATASET=trafic
+12/28 04:49:55 PM | EPOCHS=15
+12/28 04:49:55 PM | EVAL_BATCH_SIZE=100
+12/28 04:49:55 PM | GPU=0
+12/28 04:49:55 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 04:49:55 PM | LR=0.01
+12/28 04:49:55 PM | LR_DECAY_STEP=5,10
+12/28 04:49:55 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 04:49:55 PM | RESUME_MASK=None
+12/28 04:49:55 PM | START_COV=0
+12/28 04:49:55 PM | TRAIN_BATCH_SIZE=32
+12/28 04:49:55 PM | 
+12/28 04:49:55 PM | ==> Preparing data..
+12/28 04:49:55 PM | ==> Building model..
+12/28 04:49:58 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/28 04:49:58 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/28 04:50:07 PM | 
+12/28 04:50:07 PM | Parameters:
+12/28 04:50:07 PM | ARCH=resnet_56
+12/28 04:50:07 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 04:50:07 PM | DATA_DIR=./data
+12/28 04:50:07 PM | DATASET=trafic
+12/28 04:50:07 PM | EPOCHS=15
+12/28 04:50:07 PM | EVAL_BATCH_SIZE=100
+12/28 04:50:07 PM | GPU=0
+12/28 04:50:07 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 04:50:07 PM | LR=0.01
+12/28 04:50:07 PM | LR_DECAY_STEP=5,10
+12/28 04:50:07 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 04:50:07 PM | RESUME_MASK=None
+12/28 04:50:07 PM | START_COV=0
+12/28 04:50:07 PM | TRAIN_BATCH_SIZE=32
+12/28 04:50:07 PM | 
+12/28 04:50:07 PM | ==> Preparing data..
+12/28 04:50:08 PM | ==> Building model..
+12/28 04:50:10 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/28 04:50:10 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/28 04:50:10 PM | 
+Epoch: 0
+12/28 04:50:24 PM | 
+12/28 04:50:24 PM | Parameters:
+12/28 04:50:24 PM | ARCH=resnet_56
+12/28 04:50:24 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 04:50:24 PM | DATA_DIR=./data
+12/28 04:50:24 PM | DATASET=trafic
+12/28 04:50:24 PM | EPOCHS=15
+12/28 04:50:24 PM | EVAL_BATCH_SIZE=100
+12/28 04:50:24 PM | GPU=0
+12/28 04:50:24 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 04:50:24 PM | LR=0.01
+12/28 04:50:24 PM | LR_DECAY_STEP=5,10
+12/28 04:50:24 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 04:50:24 PM | RESUME_MASK=None
+12/28 04:50:24 PM | START_COV=0
+12/28 04:50:24 PM | TRAIN_BATCH_SIZE=32
+12/28 04:50:24 PM | 
+12/28 04:50:24 PM | ==> Preparing data..
+12/28 04:50:24 PM | ==> Building model..
+12/28 04:50:26 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/28 04:50:26 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/28 04:51:33 PM | 
+12/28 04:51:33 PM | Parameters:
+12/28 04:51:33 PM | ARCH=resnet_56
+12/28 04:51:33 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 04:51:33 PM | DATA_DIR=./data
+12/28 04:51:33 PM | DATASET=trafic
+12/28 04:51:33 PM | EPOCHS=15
+12/28 04:51:33 PM | EVAL_BATCH_SIZE=100
+12/28 04:51:33 PM | GPU=0
+12/28 04:51:33 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 04:51:33 PM | LR=0.01
+12/28 04:51:33 PM | LR_DECAY_STEP=5,10
+12/28 04:51:33 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 04:51:33 PM | RESUME_MASK=None
+12/28 04:51:33 PM | START_COV=0
+12/28 04:51:33 PM | TRAIN_BATCH_SIZE=32
+12/28 04:51:33 PM | 
+12/28 04:51:33 PM | ==> Preparing data..
+12/28 04:51:33 PM | ==> Building model..
+12/28 04:51:36 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/28 04:51:36 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/28 04:53:08 PM | 
+12/28 04:53:08 PM | Parameters:
+12/28 04:53:08 PM | ARCH=resnet_56
+12/28 04:53:08 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 04:53:08 PM | DATA_DIR=./data
+12/28 04:53:08 PM | DATASET=trafic
+12/28 04:53:08 PM | EPOCHS=15
+12/28 04:53:08 PM | EVAL_BATCH_SIZE=100
+12/28 04:53:08 PM | GPU=0
+12/28 04:53:08 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 04:53:08 PM | LR=0.01
+12/28 04:53:08 PM | LR_DECAY_STEP=5,10
+12/28 04:53:08 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 04:53:08 PM | RESUME_MASK=None
+12/28 04:53:08 PM | START_COV=0
+12/28 04:53:08 PM | TRAIN_BATCH_SIZE=32
+12/28 04:53:08 PM | 
+12/28 04:53:08 PM | ==> Preparing data..
+12/28 04:53:08 PM | ==> Building model..
+12/28 04:53:10 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/28 04:53:10 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/28 04:53:10 PM | 
+Epoch: 0
+12/28 04:54:08 PM | 
+12/28 04:54:08 PM | Parameters:
+12/28 04:54:08 PM | ARCH=resnet_56
+12/28 04:54:08 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 04:54:08 PM | DATA_DIR=./data
+12/28 04:54:08 PM | DATASET=trafic
+12/28 04:54:08 PM | EPOCHS=15
+12/28 04:54:08 PM | EVAL_BATCH_SIZE=100
+12/28 04:54:08 PM | GPU=0
+12/28 04:54:08 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 04:54:08 PM | LR=0.01
+12/28 04:54:08 PM | LR_DECAY_STEP=5,10
+12/28 04:54:08 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 04:54:08 PM | RESUME_MASK=None
+12/28 04:54:08 PM | START_COV=0
+12/28 04:54:08 PM | TRAIN_BATCH_SIZE=32
+12/28 04:54:08 PM | 
+12/28 04:54:08 PM | ==> Preparing data..
+12/28 04:54:08 PM | ==> Building model..
+12/28 04:54:11 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/28 04:54:11 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/28 04:54:11 PM | 
+Epoch: 0
+12/28 04:54:55 PM | 
+12/28 04:54:55 PM | Parameters:
+12/28 04:54:55 PM | ARCH=resnet_56
+12/28 04:54:55 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 04:54:55 PM | DATA_DIR=./data
+12/28 04:54:55 PM | DATASET=trafic
+12/28 04:54:55 PM | EPOCHS=15
+12/28 04:54:55 PM | EVAL_BATCH_SIZE=100
+12/28 04:54:55 PM | GPU=0
+12/28 04:54:55 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 04:54:55 PM | LR=0.01
+12/28 04:54:55 PM | LR_DECAY_STEP=5,10
+12/28 04:54:55 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 04:54:55 PM | RESUME_MASK=None
+12/28 04:54:55 PM | START_COV=0
+12/28 04:54:55 PM | TRAIN_BATCH_SIZE=32
+12/28 04:54:55 PM | 
+12/28 04:54:55 PM | ==> Preparing data..
+12/28 04:54:55 PM | ==> Building model..
+12/28 04:54:58 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/28 04:54:58 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/28 04:54:58 PM | 
+Epoch: 0
+12/28 04:55:33 PM | 
+12/28 04:55:33 PM | Parameters:
+12/28 04:55:33 PM | ARCH=resnet_56
+12/28 04:55:33 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 04:55:33 PM | DATA_DIR=./data
+12/28 04:55:33 PM | DATASET=trafic
+12/28 04:55:33 PM | EPOCHS=15
+12/28 04:55:33 PM | EVAL_BATCH_SIZE=100
+12/28 04:55:33 PM | GPU=0
+12/28 04:55:33 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 04:55:33 PM | LR=0.01
+12/28 04:55:33 PM | LR_DECAY_STEP=5,10
+12/28 04:55:33 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 04:55:33 PM | RESUME_MASK=None
+12/28 04:55:33 PM | START_COV=0
+12/28 04:55:33 PM | TRAIN_BATCH_SIZE=32
+12/28 04:55:33 PM | 
+12/28 04:55:33 PM | ==> Preparing data..
+12/28 04:55:33 PM | ==> Building model..
+12/28 04:55:35 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/28 04:55:35 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/28 04:58:24 PM | 
+12/28 04:58:24 PM | Parameters:
+12/28 04:58:24 PM | ARCH=resnet_56
+12/28 04:58:24 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 04:58:24 PM | DATA_DIR=./data
+12/28 04:58:24 PM | DATASET=trafic
+12/28 04:58:24 PM | EPOCHS=15
+12/28 04:58:24 PM | EVAL_BATCH_SIZE=100
+12/28 04:58:24 PM | GPU=0
+12/28 04:58:24 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 04:58:24 PM | LR=0.01
+12/28 04:58:24 PM | LR_DECAY_STEP=5,10
+12/28 04:58:24 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 04:58:24 PM | RESUME_MASK=None
+12/28 04:58:24 PM | START_COV=0
+12/28 04:58:24 PM | TRAIN_BATCH_SIZE=32
+12/28 04:58:24 PM | 
+12/28 04:58:24 PM | ==> Preparing data..
+12/28 04:58:24 PM | ==> Building model..
+12/28 05:01:53 PM | 
+12/28 05:01:53 PM | Parameters:
+12/28 05:01:53 PM | ARCH=resnet_56
+12/28 05:01:53 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 05:01:53 PM | DATA_DIR=./data
+12/28 05:01:53 PM | DATASET=trafic
+12/28 05:01:53 PM | EPOCHS=15
+12/28 05:01:53 PM | EVAL_BATCH_SIZE=100
+12/28 05:01:53 PM | GPU=0
+12/28 05:01:53 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 05:01:53 PM | LR=0.01
+12/28 05:01:53 PM | LR_DECAY_STEP=5,10
+12/28 05:01:53 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 05:01:53 PM | RESUME_MASK=None
+12/28 05:01:53 PM | START_COV=0
+12/28 05:01:53 PM | TRAIN_BATCH_SIZE=32
+12/28 05:01:53 PM | 
+12/28 05:01:53 PM | ==> Preparing data..
+12/28 05:01:53 PM | ==> Building model..
+12/28 05:04:39 PM | 
+12/28 05:04:39 PM | Parameters:
+12/28 05:04:39 PM | ARCH=resnet_56
+12/28 05:04:39 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 05:04:39 PM | DATA_DIR=./data
+12/28 05:04:39 PM | DATASET=trafic
+12/28 05:04:39 PM | EPOCHS=15
+12/28 05:04:39 PM | EVAL_BATCH_SIZE=100
+12/28 05:04:39 PM | GPU=0
+12/28 05:04:39 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 05:04:39 PM | LR=0.01
+12/28 05:04:39 PM | LR_DECAY_STEP=5,10
+12/28 05:04:39 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 05:04:39 PM | RESUME_MASK=None
+12/28 05:04:39 PM | START_COV=0
+12/28 05:04:39 PM | TRAIN_BATCH_SIZE=32
+12/28 05:04:39 PM | 
+12/28 05:04:39 PM | ==> Preparing data..
+12/28 05:04:39 PM | ==> Building model..
+12/28 05:04:42 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/28 05:04:42 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/28 05:04:42 PM | 
+Epoch: 0
+12/28 05:05:19 PM | 
+12/28 05:05:19 PM | Parameters:
+12/28 05:05:19 PM | ARCH=resnet_56
+12/28 05:05:19 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 05:05:19 PM | DATA_DIR=./data
+12/28 05:05:19 PM | DATASET=trafic
+12/28 05:05:19 PM | EPOCHS=15
+12/28 05:05:19 PM | EVAL_BATCH_SIZE=100
+12/28 05:05:19 PM | GPU=0
+12/28 05:05:19 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 05:05:19 PM | LR=0.01
+12/28 05:05:19 PM | LR_DECAY_STEP=5,10
+12/28 05:05:19 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 05:05:19 PM | RESUME_MASK=None
+12/28 05:05:19 PM | START_COV=0
+12/28 05:05:19 PM | TRAIN_BATCH_SIZE=32
+12/28 05:05:19 PM | 
+12/28 05:05:19 PM | ==> Preparing data..
+12/28 05:05:19 PM | ==> Building model..
+12/28 05:06:25 PM | 
+12/28 05:06:25 PM | Parameters:
+12/28 05:06:25 PM | ARCH=resnet_56
+12/28 05:06:25 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 05:06:25 PM | DATA_DIR=./data
+12/28 05:06:25 PM | DATASET=trafic
+12/28 05:06:25 PM | EPOCHS=15
+12/28 05:06:25 PM | EVAL_BATCH_SIZE=100
+12/28 05:06:25 PM | GPU=0
+12/28 05:06:25 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 05:06:25 PM | LR=0.01
+12/28 05:06:25 PM | LR_DECAY_STEP=5,10
+12/28 05:06:25 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 05:06:25 PM | RESUME_MASK=None
+12/28 05:06:25 PM | START_COV=0
+12/28 05:06:25 PM | TRAIN_BATCH_SIZE=32
+12/28 05:06:25 PM | 
+12/28 05:06:25 PM | ==> Preparing data..
+12/28 05:06:25 PM | ==> Building model..
+12/28 05:07:43 PM | 
+12/28 05:07:43 PM | Parameters:
+12/28 05:07:43 PM | ARCH=resnet_56
+12/28 05:07:43 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 05:07:43 PM | DATA_DIR=./data
+12/28 05:07:43 PM | DATASET=trafic
+12/28 05:07:43 PM | EPOCHS=15
+12/28 05:07:43 PM | EVAL_BATCH_SIZE=100
+12/28 05:07:43 PM | GPU=0
+12/28 05:07:43 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 05:07:43 PM | LR=0.01
+12/28 05:07:43 PM | LR_DECAY_STEP=5,10
+12/28 05:07:43 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 05:07:43 PM | RESUME_MASK=None
+12/28 05:07:43 PM | START_COV=0
+12/28 05:07:43 PM | TRAIN_BATCH_SIZE=32
+12/28 05:07:43 PM | 
+12/28 05:07:43 PM | ==> Preparing data..
+12/28 05:07:43 PM | ==> Building model..
+12/28 05:07:46 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/28 05:07:46 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/28 05:07:46 PM | 
+Epoch: 0
+12/28 05:08:02 PM | 
+12/28 05:08:02 PM | Parameters:
+12/28 05:08:02 PM | ARCH=resnet_56
+12/28 05:08:02 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 05:08:02 PM | DATA_DIR=./data
+12/28 05:08:02 PM | DATASET=trafic
+12/28 05:08:02 PM | EPOCHS=15
+12/28 05:08:02 PM | EVAL_BATCH_SIZE=100
+12/28 05:08:02 PM | GPU=0
+12/28 05:08:02 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 05:08:02 PM | LR=0.01
+12/28 05:08:02 PM | LR_DECAY_STEP=5,10
+12/28 05:08:02 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 05:08:02 PM | RESUME_MASK=None
+12/28 05:08:02 PM | START_COV=0
+12/28 05:08:02 PM | TRAIN_BATCH_SIZE=32
+12/28 05:08:02 PM | 
+12/28 05:08:02 PM | ==> Preparing data..
+12/28 05:08:02 PM | ==> Building model..
+12/28 05:08:05 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/28 05:08:05 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/28 05:08:05 PM | 
+Epoch: 0
+12/28 05:09:37 PM | 
+12/28 05:09:37 PM | Parameters:
+12/28 05:09:37 PM | ARCH=resnet_56
+12/28 05:09:37 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 05:09:37 PM | DATA_DIR=./data
+12/28 05:09:37 PM | DATASET=trafic
+12/28 05:09:37 PM | EPOCHS=15
+12/28 05:09:37 PM | EVAL_BATCH_SIZE=100
+12/28 05:09:37 PM | GPU=0
+12/28 05:09:37 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 05:09:37 PM | LR=0.01
+12/28 05:09:37 PM | LR_DECAY_STEP=5,10
+12/28 05:09:37 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 05:09:37 PM | RESUME_MASK=None
+12/28 05:09:37 PM | START_COV=0
+12/28 05:09:37 PM | TRAIN_BATCH_SIZE=32
+12/28 05:09:37 PM | 
+12/28 05:09:37 PM | ==> Preparing data..
+12/28 05:09:37 PM | ==> Building model..
+12/28 05:12:30 PM | 
+12/28 05:12:30 PM | Parameters:
+12/28 05:12:30 PM | ARCH=resnet_56
+12/28 05:12:30 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 05:12:30 PM | DATA_DIR=./data
+12/28 05:12:30 PM | DATASET=trafic
+12/28 05:12:30 PM | EPOCHS=15
+12/28 05:12:30 PM | EVAL_BATCH_SIZE=100
+12/28 05:12:30 PM | GPU=0
+12/28 05:12:30 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 05:12:30 PM | LR=0.01
+12/28 05:12:30 PM | LR_DECAY_STEP=5,10
+12/28 05:12:30 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 05:12:30 PM | RESUME_MASK=None
+12/28 05:12:30 PM | START_COV=0
+12/28 05:12:30 PM | TRAIN_BATCH_SIZE=32
+12/28 05:12:30 PM | 
+12/28 05:12:30 PM | ==> Preparing data..
+12/28 05:12:30 PM | ==> Building model..
+12/28 05:12:40 PM | 
+12/28 05:12:40 PM | Parameters:
+12/28 05:12:40 PM | ARCH=resnet_56
+12/28 05:12:40 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 05:12:40 PM | DATA_DIR=./data
+12/28 05:12:40 PM | DATASET=trafic
+12/28 05:12:40 PM | EPOCHS=15
+12/28 05:12:40 PM | EVAL_BATCH_SIZE=100
+12/28 05:12:40 PM | GPU=0
+12/28 05:12:40 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 05:12:40 PM | LR=0.01
+12/28 05:12:40 PM | LR_DECAY_STEP=5,10
+12/28 05:12:40 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 05:12:40 PM | RESUME_MASK=None
+12/28 05:12:40 PM | START_COV=0
+12/28 05:12:40 PM | TRAIN_BATCH_SIZE=32
+12/28 05:12:40 PM | 
+12/28 05:12:40 PM | ==> Preparing data..
+12/28 05:12:40 PM | ==> Building model..
+12/28 05:12:55 PM | 
+12/28 05:12:55 PM | Parameters:
+12/28 05:12:55 PM | ARCH=resnet_56
+12/28 05:12:55 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 05:12:55 PM | DATA_DIR=./data
+12/28 05:12:55 PM | DATASET=trafic
+12/28 05:12:55 PM | EPOCHS=15
+12/28 05:12:55 PM | EVAL_BATCH_SIZE=100
+12/28 05:12:55 PM | GPU=0
+12/28 05:12:55 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 05:12:55 PM | LR=0.01
+12/28 05:12:55 PM | LR_DECAY_STEP=5,10
+12/28 05:12:55 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 05:12:55 PM | RESUME_MASK=None
+12/28 05:12:55 PM | START_COV=0
+12/28 05:12:55 PM | TRAIN_BATCH_SIZE=32
+12/28 05:12:55 PM | 
+12/28 05:12:55 PM | ==> Preparing data..
+12/28 05:12:55 PM | ==> Building model..
+12/28 05:12:57 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/28 05:12:57 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/28 05:12:57 PM | 
+Epoch: 0
+12/28 05:13:11 PM | 
+12/28 05:13:11 PM | Parameters:
+12/28 05:13:11 PM | ARCH=resnet_56
+12/28 05:13:11 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 05:13:11 PM | DATA_DIR=./data
+12/28 05:13:11 PM | DATASET=trafic
+12/28 05:13:11 PM | EPOCHS=15
+12/28 05:13:11 PM | EVAL_BATCH_SIZE=100
+12/28 05:13:11 PM | GPU=0
+12/28 05:13:11 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 05:13:11 PM | LR=0.01
+12/28 05:13:11 PM | LR_DECAY_STEP=5,10
+12/28 05:13:11 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 05:13:11 PM | RESUME_MASK=None
+12/28 05:13:11 PM | START_COV=0
+12/28 05:13:11 PM | TRAIN_BATCH_SIZE=32
+12/28 05:13:11 PM | 
+12/28 05:13:11 PM | ==> Preparing data..
+12/28 05:13:11 PM | ==> Building model..
+12/28 05:14:02 PM | 
+12/28 05:14:02 PM | Parameters:
+12/28 05:14:02 PM | ARCH=resnet_56
+12/28 05:14:02 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 05:14:02 PM | DATA_DIR=./data
+12/28 05:14:02 PM | DATASET=trafic
+12/28 05:14:02 PM | EPOCHS=15
+12/28 05:14:02 PM | EVAL_BATCH_SIZE=100
+12/28 05:14:02 PM | GPU=0
+12/28 05:14:02 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 05:14:02 PM | LR=0.01
+12/28 05:14:02 PM | LR_DECAY_STEP=5,10
+12/28 05:14:02 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 05:14:02 PM | RESUME_MASK=None
+12/28 05:14:02 PM | START_COV=0
+12/28 05:14:02 PM | TRAIN_BATCH_SIZE=32
+12/28 05:14:02 PM | 
+12/28 05:14:02 PM | ==> Preparing data..
+12/28 05:14:02 PM | ==> Building model..
+12/28 05:14:06 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/28 05:14:06 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/28 05:14:06 PM | 
+Epoch: 0
+12/28 05:15:38 PM | 
+12/28 05:15:38 PM | Parameters:
+12/28 05:15:38 PM | ARCH=resnet_56
+12/28 05:15:38 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 05:15:38 PM | DATA_DIR=./data
+12/28 05:15:38 PM | DATASET=trafic
+12/28 05:15:38 PM | EPOCHS=15
+12/28 05:15:38 PM | EVAL_BATCH_SIZE=100
+12/28 05:15:38 PM | GPU=0
+12/28 05:15:38 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 05:15:38 PM | LR=0.01
+12/28 05:15:38 PM | LR_DECAY_STEP=5,10
+12/28 05:15:38 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 05:15:38 PM | RESUME_MASK=None
+12/28 05:15:38 PM | START_COV=0
+12/28 05:15:38 PM | TRAIN_BATCH_SIZE=32
+12/28 05:15:38 PM | 
+12/28 05:15:38 PM | ==> Preparing data..
+12/28 05:15:38 PM | ==> Building model..
+12/28 05:16:10 PM | 
+12/28 05:16:10 PM | Parameters:
+12/28 05:16:10 PM | ARCH=resnet_56
+12/28 05:16:10 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 05:16:10 PM | DATA_DIR=./data
+12/28 05:16:10 PM | DATASET=trafic
+12/28 05:16:10 PM | EPOCHS=15
+12/28 05:16:10 PM | EVAL_BATCH_SIZE=100
+12/28 05:16:10 PM | GPU=0
+12/28 05:16:10 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 05:16:10 PM | LR=0.01
+12/28 05:16:10 PM | LR_DECAY_STEP=5,10
+12/28 05:16:10 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 05:16:10 PM | RESUME_MASK=None
+12/28 05:16:10 PM | START_COV=0
+12/28 05:16:10 PM | TRAIN_BATCH_SIZE=32
+12/28 05:16:10 PM | 
+12/28 05:16:10 PM | ==> Preparing data..
+12/28 05:16:10 PM | ==> Building model..
+12/28 05:16:12 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/28 05:16:12 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/28 05:16:12 PM | 
+Epoch: 0
+12/28 05:16:28 PM | 
+12/28 05:16:28 PM | Parameters:
+12/28 05:16:28 PM | ARCH=resnet_56
+12/28 05:16:28 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 05:16:28 PM | DATA_DIR=./data
+12/28 05:16:28 PM | DATASET=trafic
+12/28 05:16:28 PM | EPOCHS=15
+12/28 05:16:28 PM | EVAL_BATCH_SIZE=100
+12/28 05:16:28 PM | GPU=0
+12/28 05:16:28 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 05:16:28 PM | LR=0.01
+12/28 05:16:28 PM | LR_DECAY_STEP=5,10
+12/28 05:16:28 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 05:16:28 PM | RESUME_MASK=None
+12/28 05:16:28 PM | START_COV=0
+12/28 05:16:28 PM | TRAIN_BATCH_SIZE=32
+12/28 05:16:28 PM | 
+12/28 05:16:28 PM | ==> Preparing data..
+12/28 05:16:28 PM | ==> Building model..
+12/28 05:16:30 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/28 05:16:30 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/28 05:16:30 PM | 
+Epoch: 0
+12/28 05:54:54 PM | 
+12/28 05:54:54 PM | Parameters:
+12/28 05:54:54 PM | ARCH=resnet_56
+12/28 05:54:54 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 05:54:54 PM | DATA_DIR=./data
+12/28 05:54:54 PM | DATASET=trafic
+12/28 05:54:54 PM | EPOCHS=15
+12/28 05:54:54 PM | EVAL_BATCH_SIZE=100
+12/28 05:54:54 PM | GPU=0
+12/28 05:54:54 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 05:54:54 PM | LR=0.01
+12/28 05:54:54 PM | LR_DECAY_STEP=5,10
+12/28 05:54:54 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 05:54:54 PM | RESUME_MASK=None
+12/28 05:54:54 PM | START_COV=0
+12/28 05:54:54 PM | TRAIN_BATCH_SIZE=32
+12/28 05:54:54 PM | 
+12/28 05:54:54 PM | ==> Preparing data..
+12/28 05:54:54 PM | ==> Building model..
+12/28 05:54:56 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/28 05:54:56 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/28 05:54:56 PM | 
+Epoch: 0
+12/28 05:55:21 PM | 
+12/28 05:55:21 PM | Parameters:
+12/28 05:55:21 PM | ARCH=resnet_56
+12/28 05:55:21 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 05:55:21 PM | DATA_DIR=./data
+12/28 05:55:21 PM | DATASET=trafic
+12/28 05:55:21 PM | EPOCHS=15
+12/28 05:55:21 PM | EVAL_BATCH_SIZE=100
+12/28 05:55:21 PM | GPU=0
+12/28 05:55:21 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 05:55:21 PM | LR=0.01
+12/28 05:55:21 PM | LR_DECAY_STEP=5,10
+12/28 05:55:21 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 05:55:21 PM | RESUME_MASK=None
+12/28 05:55:21 PM | START_COV=0
+12/28 05:55:21 PM | TRAIN_BATCH_SIZE=32
+12/28 05:55:21 PM | 
+12/28 05:55:21 PM | ==> Preparing data..
+12/28 05:55:21 PM | ==> Building model..
+12/28 05:55:23 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/28 05:55:23 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/28 05:55:23 PM | 
+Epoch: 0
+12/28 05:57:05 PM | 
+12/28 05:57:05 PM | Parameters:
+12/28 05:57:05 PM | ARCH=resnet_56
+12/28 05:57:05 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 05:57:05 PM | DATA_DIR=./data
+12/28 05:57:05 PM | DATASET=trafic
+12/28 05:57:05 PM | EPOCHS=15
+12/28 05:57:05 PM | EVAL_BATCH_SIZE=100
+12/28 05:57:05 PM | GPU=0
+12/28 05:57:05 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 05:57:05 PM | LR=0.01
+12/28 05:57:05 PM | LR_DECAY_STEP=5,10
+12/28 05:57:05 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 05:57:05 PM | RESUME_MASK=None
+12/28 05:57:05 PM | START_COV=0
+12/28 05:57:05 PM | TRAIN_BATCH_SIZE=32
+12/28 05:57:05 PM | 
+12/28 05:57:05 PM | ==> Preparing data..
+12/28 05:57:05 PM | ==> Building model..
+12/28 05:57:16 PM | 
+12/28 05:57:16 PM | Parameters:
+12/28 05:57:16 PM | ARCH=resnet_56
+12/28 05:57:16 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 05:57:16 PM | DATA_DIR=./data
+12/28 05:57:16 PM | DATASET=trafic
+12/28 05:57:16 PM | EPOCHS=15
+12/28 05:57:16 PM | EVAL_BATCH_SIZE=100
+12/28 05:57:16 PM | GPU=0
+12/28 05:57:16 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 05:57:16 PM | LR=0.01
+12/28 05:57:16 PM | LR_DECAY_STEP=5,10
+12/28 05:57:16 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 05:57:16 PM | RESUME_MASK=None
+12/28 05:57:16 PM | START_COV=0
+12/28 05:57:16 PM | TRAIN_BATCH_SIZE=32
+12/28 05:57:16 PM | 
+12/28 05:57:16 PM | ==> Preparing data..
+12/28 05:57:16 PM | ==> Building model..
+12/28 05:57:20 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/28 05:57:20 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/28 05:57:20 PM | 
+Epoch: 0
+12/28 06:15:20 PM | 
+12/28 06:15:20 PM | Parameters:
+12/28 06:15:20 PM | ARCH=resnet_56
+12/28 06:15:20 PM | COMPRESS_RATE=[0.1]+[0.60]*35+[0.0]*2+[0.6]*6+[0.4]*3+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]+[0.1]+[0.4]
+12/28 06:15:20 PM | DATA_DIR=./data
+12/28 06:15:20 PM | DATASET=trafic
+12/28 06:15:20 PM | EPOCHS=15
+12/28 06:15:20 PM | EVAL_BATCH_SIZE=100
+12/28 06:15:20 PM | GPU=0
+12/28 06:15:20 PM | JOB_DIR=./result/resnet_56/trafic
+12/28 06:15:20 PM | LR=0.01
+12/28 06:15:20 PM | LR_DECAY_STEP=5,10
+12/28 06:15:20 PM | RESUME=/home/wxz/HRank-master/pretrained_models/resnet_56.pt
+12/28 06:15:20 PM | RESUME_MASK=None
+12/28 06:15:20 PM | START_COV=0
+12/28 06:15:20 PM | TRAIN_BATCH_SIZE=32
+12/28 06:15:20 PM | 
+12/28 06:15:20 PM | ==> Preparing data..
+12/28 06:15:20 PM | ==> Building model..
+12/28 06:15:24 PM | compress rate: [0.1, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.0, 0.0, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.4, 0.4, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4, 0.1, 0.4]
+12/28 06:15:24 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+12/28 06:15:24 PM | 
+Epoch: 0
